@@ -45,7 +45,7 @@ void loop()
     // read signals
     clawVent = digitalRead(clawVentValvePin);
     runCompressor = digitalRead(compressorRunPin);
-    clawPressurize = map(analogRead(clawPressurizeValvePin), 0, 1023, 0.0, 1.0);
+    clawPressurize = constrain(map((float)analogRead(clawPressurizeValvePin), 20, 1023, 0.0, 1.0), 0, 1);
 
     // pneumatics simulation
     if (runCompressor) {
