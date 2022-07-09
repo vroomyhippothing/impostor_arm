@@ -1,4 +1,4 @@
-name: Lint
+name: CI
 
 on:
   push:
@@ -17,7 +17,6 @@ jobs:
         with:
           compliance: strict
           project-type: all
-          library-manager: submit
           recursive: true
           
 
