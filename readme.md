@@ -1,3 +1,2 @@
 ## impostor arm
-
-[![Lint](https://github.com/vroomyhippothing/impostor_arm/actions/workflows/Lint.yml/badge.svg)](https://github.com/vroomyhippothing/impostor_arm/actions/workflows/Lint.yml)
+[![CI](https://github.com/vroomyhippothing/impostor_arm/actions/workflows/CI.yml/badge.svg)](https://github.com/vroomyhippothing/impostor_arm/actions/workflows/CI.yml)
